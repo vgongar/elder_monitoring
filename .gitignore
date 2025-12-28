@@ -1,0 +1,25 @@
+# --- Entornos Virtuales (¡Muy importante no subirlos!) ---
+.venv/
+env/
+venv/
+
+# --- Archivos de Python generados automáticamente ---
+__pycache__/
+*.pyc
+
+# --- Datos (Nunca subas CSVs gigantes o confidenciales) ---
+data/
+datasets/
+*.csv
+*.xlsx
+
+# --- Configuración del IDE ---
+.vscode/
+.idea/
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+**/.ipynb_checkpoints/
+
+# --- Basura de Mac ---
+.DS_Store
+**/.DS_Store  
